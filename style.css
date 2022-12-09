@@ -1,0 +1,160 @@
+ body{
+    background-color: black;
+    font-family: sans-serif;
+    margin: 0%;
+    padding: 0%;
+    overflow-x: hidden;
+    display: flex;
+    
+}
+
+nav{
+   width: 100%; 
+   height: 85px;
+   background-color: black;
+   display: flex;
+   justify-content: space-between;
+   padding-left: 10px;
+   padding-right: 10px;
+   
+   
+   }
+
+ ul {
+    display: flex;
+    width: 50%;
+    height: 100%;
+    justify-content: space-around;
+  text-decoration: none;
+  list-style: none;  
+ } 
+
+
+ a{
+    text-decoration: none;
+    color: white;    
+ }
+
+
+ .LOGO {
+    color: white;
+    
+
+ }
+
+ ul a:hover {
+   color: rgb(9, 243,83);
+   text-decoration:underline
+ }
+ 
+   
+ 
+ ul button{
+        background-color: rgb( 9, 243, 83);
+        padding: 10px;
+    
+    }
+
+    .hr{
+      background-color: rgb( 9, 243, 83);
+      height: 2%;
+      width: 40%; 
+    }       
+    .hero-container{
+
+      width: 100vw;
+      height: 80vh;
+      display: flex;
+      margin-left: 20px;
+      margin-right: 20px;
+      display: flex;
+
+    }
+
+    .hero-left{
+  
+      height: 100%;
+      width: 100%;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 25px;
+       
+    }
+    .mine-left{
+      color: blueviolet;
+
+    }
+
+    .button-left{
+      background-color: rgb( 9, 243, 83);
+      padding: 10px 25px 10px 25px;
+      border-radius: 62px;
+      width: 25%;
+    }
+  
+    .hero-right{
+      /*background-color: black;*/
+      height: 100%;
+      width: 100%;
+    }
+    .hero-btn{
+      color: white;
+      background-color: orange;
+      border-radius: 64px;
+      padding: 10px 25px 10px 25px;
+      width: 25%; 
+
+    }
+    .title-left{
+      font-size: 45px;
+      width: 40%;
+
+    }
+
+    .para-left{
+      width: 80%;
+      line-height: 30px;
+    }
+
+    .hero-right{
+      height: 100%;
+      width: 100%; 
+      /*background-image: url('assets/joy_stick\ 1.png');*/
+      object-fit: cover;
+      /*position: center;
+      background-color: black;
+      /* padding-top: 240px; */
+      
+    }
+    .info-section-1-container{
+      color: white;
+      align-items: center;
+      flex-direction: column;
+      display: flex;
+      width: 100%;
+    
+    }
+    .info-1-top{
+      display: flex;
+      justify-content: space-between;
+      width: 80%;
+      margin-bottom: 30px;
+    }
+    .info-1-cards-container{
+display: flex;
+justify-content: space-between;
+width: 80%;
+    }
+    .info-section-2-container{
+      width: 100%;
+      height: 200%;
+      background: whitesmoke;
+
+    }
+    
+    
+
+
+ 
